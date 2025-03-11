@@ -1,13 +1,13 @@
 # Docker-with-ubuntu
 Docker commands for personal use
 
-## create docker container
+## all docker containers running !!
 ```bash
-apt update 
-apt install openssh-server
-service ssh start
-docker inspect d303519f91b4
-useradd Rajasekar
-passwd ....
-ssh username@ ip address
+docker ps -a
+```
+
+## docker pull ubuntu command 
+```bash
+docker pull ubuntu:latest
+```
 
