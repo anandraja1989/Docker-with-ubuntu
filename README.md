@@ -9,4 +9,10 @@ docker ps -a       #show all containers
 ```bash
 docker pull ubuntu:latest   #pull ubuntu latest container
 ```
+## docker show all images !!
+```bash
+docker images ps -a       #show docker all images
+```
+## `find`
+
 
