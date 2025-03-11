@@ -24,8 +24,9 @@ docker exec -it image id /bin/bash  # getting into running container
 ## docker image remove cammand !!
 ```bash
 docker rmi -f image id  # remove container image
-docker rm
+docker rm container id  # remove container
 ```
+## 
 - [x] testing
 
 
