@@ -5,4 +5,9 @@ Docker commands for personal use
 ```bash
 apt update 
 apt install openssh-server
-```
+service ssh start
+docker inspect d303519f91b4
+useradd Rajasekar
+passwd ....
+ssh username@ ip address
+
