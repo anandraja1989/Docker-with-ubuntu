@@ -37,6 +37,4 @@ passwd ....
 ssh username@ ip address  # ssh username and ip address of another container
 ```
 
-- [x] sample
-- [ ] test
 
