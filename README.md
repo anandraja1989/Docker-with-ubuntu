@@ -26,6 +26,6 @@ docker exec -it image id /bin/bash  # getting into running container
 docker rmi -f image id  # remove container image
 docker rm
 ```
--[*] testing
+-[x] testing
 
 
