@@ -26,7 +26,16 @@ docker exec -it image id /bin/bash  # getting into running container
 docker rmi -f image id  # remove container image
 docker rm container id  # remove container
 ```
-## 
-- [x] testing
+## SSH one container to another container connect command
+```bash
+sudo apt update
+sudo apt install openssh-server
+service ssh start
+docker inspect d303519f91b4
+useradd Rajasekar
+passwd ....
+ssh username@ ip address  # ssh username and ip address of another container
+```
+
 
 
