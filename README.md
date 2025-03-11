@@ -13,6 +13,19 @@ docker pull ubuntu:latest   #pull ubuntu latest container
 ```bash
 docker images ps -a       #show docker all images
 ```
-## `find` docker
+## `find` docker running command !!
+```bash
+docker run -it image id   # image running in docker
+```
+## docker exec command !!
+```bash
+docker exec -it image id /bin/bash  # getting into running container
+```
+## docker image remove cammand !!
+```bash
+docker rmi -f image id  # remove container image
+docker rm
+
+-[*] testing
 
 
